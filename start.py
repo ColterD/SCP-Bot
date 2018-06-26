@@ -29,7 +29,9 @@ def is_valid_scp(s: str) -> str:
 
     return True
 
-owner = ["208307970105278465"]
+# THIS IS YOUR OWNER ID
+# https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
+owner = ["CHANGETHIS"]
 
 bot = commands.Bot(command_prefix='!', description="test")
 
@@ -117,4 +119,12 @@ async def on_message(message):
     # and let marvin talk :)
     await bot.send_message(message.channel, answer)
 
+# THIS IS YOUR BOTS CUSTOM TOKEN
+# https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
 bot.run("NDQ0NTM2OTYxNzY4NjIwMDMy.DddW1A.QHacqbbZhkpEMgVsxbmGKquN6QE")
+
+# TO INVITE YOUR BOT
+# On the Bot Discord page, take the Client ID and dump it into a link like this:
+# https://discordapp.com/oauth2/authorize?&client_id=YOUR_CLIENT_ID_HERE&scope=bot&permissions=0
+# Changing the YOUR_CLIENT_ID_HERE to your actual Bot account ID.
+# Congrats, you've got a SCP Discord bot.

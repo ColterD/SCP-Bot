@@ -121,7 +121,7 @@ async def on_message(message):
 
 # THIS IS YOUR BOTS CUSTOM TOKEN
 # https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
-bot.run("NDQ0NTM2OTYxNzY4NjIwMDMy.DddW1A.QHacqbbZhkpEMgVsxbmGKquN6QE")
+bot.run("BOT_TOKEN_HERE")
 
 # TO INVITE YOUR BOT
 # On the Bot Discord page, take the Client ID and dump it into a link like this:
